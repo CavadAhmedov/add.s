@@ -1,0 +1,36 @@
+/*
+Error: Invalid CSS after "		}": expected selector or at-rule, was "}"
+        on line 220 of C:\Users\hp\Desktop\codes\css\home.scss
+
+215: 					height:30px;
+216: 					width:100px;
+217: 					background-image:linear-gradient( 45deg, #00a65a 0%, #0086cd 16%, #873996 37%, #ec3824 62%, #f0812b 82%, #ffc90a 100%);
+218: 				}
+219: 		}
+220: }
+221: .showSend{
+222: 	animation:1s questionSend forwards;
+223: }
+224: @keyframes questionSend{
+225: 	0%{
+
+Backtrace:
+C:\Users\hp\Desktop\codes\css\home.scss:220
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:42:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"		}\": expected selector or at-rule, was \"}\"\A         on line 220 of C:\Users\hp\Desktop\codes\css\home.scss\A \A 215: 					height:30px;\A 216: 					width:100px;\A 217: 					background-image:linear-gradient( 45deg, #00a65a 0%, #0086cd 16%, #873996 37%, #ec3824 62%, #f0812b 82%, #ffc90a 100%);\A 218: 				}\A 219: 		}\A 220: }\A 221: .showSend{\A 222: 	animation:1s questionSend forwards;\A 223: }\A 224: @keyframes questionSend{\A 225: 	0%{"; }
